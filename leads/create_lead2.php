@@ -46,7 +46,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <?php include('header2.php'); ?>
 <h3>Create Lead</h3>
 
-<!-- Display success/error messages -->
+
 <?php if (!empty($err)): ?>
     <div class="error"><?php echo $err; ?></div>
 <?php endif; ?>
